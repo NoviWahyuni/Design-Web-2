@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	background-color: crimson;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: tekton pro;
+	font-size: 30px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: deeppink;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.topnav a:hover {
+	background-color: red;
+	color: yellow;
+}
+
+input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('');
+    background-position: 10px 17px;
+    background-repeat: no-repeat;
+    padding: 17px 20px;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 25%;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.kiri {   
+	float: left;
+	width: 75%;
+	background-color: hotpink;
+	margin-top: 290px;
+}
+
+.kanan {
+      float: left;
+      width: 25%;
+      background-color: hotpink;
+      padding-left: 20px;
+      margin-top: 290px;
+}
+
+.judul {
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    font-family: Comic sans MS;
+    text-align: justify;
+}
+
+.isi-data {
+	float: left;
+	padding: 5px;
+	font-family: Comic sans MS;
+}
+
+.footer {
+	background-color: crimson;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer p:hover {
+	background-color: white;
+	color: red;
+}
+
+.img-art {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 50%;
+}
+
+.fixed-nav {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.foto {
+	width: 19.7%;
+	height: 15%;
+}
+
+@media screen and (max-width: 800px) {
+	.judul .kiri {
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.topnav a {
+		float: 0;
+		width: 100%;
+	}
+	img{
+		width: 300px;
+		height: 90px;
+	}
+	.isi-data {
+		margin-top: 272px;
+	}
+}
